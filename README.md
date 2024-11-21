@@ -4,8 +4,8 @@ A lab on hash tables, structured for Maven.
 
 **Authors**
 
-* Your Name Here
-* Your Name Here
+* Benjamin Sheeley
+* Bonsen Yusuf
 * Samuel A. Rebelsky (starter code)
 
 **Citations**

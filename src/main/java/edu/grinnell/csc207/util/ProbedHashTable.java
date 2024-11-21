@@ -8,8 +8,8 @@ import java.util.function.BiConsumer;
 /**
  * A simple implementation of probed hash tables.
  *
- * @author Your Name Here
- * @author Your Name Here
+ * @author Benjamin Sheeley
+ * @author Bonsen Yusuf
  * @author Samuel A. Rebelsky
  *
  * @param <K>
@@ -256,6 +256,8 @@ public class ProbedHashTable<K, V> implements HashTable<K, V> {
     // And we're done
     return result;
   } // set(K, V)
+
+  // to fix the bug we must replace the key instead of expandind the hashmap
 
   /**
    * Get the size of the dictionary - the number of key/value pairs
